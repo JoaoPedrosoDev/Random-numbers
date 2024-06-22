@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+
+}
+body {
+    background-color: rgb(26, 26, 26);
+}
+h1 {
+    text-align: center;
+    color: aliceblue;
+}
+.container {
+    position: relative;
+    font-family: "Poppins", sans-serif;
+    color: crimson;
+    justify-content: center;
+    justify-items: center;
+    width: 50%;
+    height: 600px;
+    margin: auto;
+    display: flex;
+}
+#entre {
+    font-size: 20px;
+
+    border: solid 2px crimson;
+    border-radius: 15px;
+    text-align: center;
+    right: 51%;
+    top: 5%;
+    position: absolute;
+    width: 30%;
+    height: 10%;
+}
+#ate {
+    font-size: 20px;
+    border: solid 2px crimson;
+    border-radius: 15px;
+    text-align: center;
+    left: 51%;
+    top: 5%;
+    position: absolute;
+    width: 30%;
+    height: 10%;
+}
+#qntd {
+    font-size: 20px;
+    top: 20%;
+    border: solid 2px crimson;
+    border-radius: 15px;
+    text-align: center;
+    width: 63%;
+    height: 10%;
+    position: absolute;
+
+}
+#btn {
+    font-size: 20px;
+    cursor: pointer;
+    top: 35%;
+    border: solid 2px crimson;
+    border-radius: 15px;
+    position: absolute;
+    width: 20%;
+    height: 10%;
+}
+.txt {
+    width: 95%;
+    height: 35%;
+    position: absolute;
+    top: 50%;
+}
+
+p span {
+    color: aliceblue;
+}
+p {
+    z-index: 100;
+    font-size: 20px;
+    text-align: center;
+}
+header {
+    bottom: 1%;
+    width: 99%;
+    position: absolute;
+    height: 3%;
+}
+header p {
+    z-index: 1;
+    color: aliceblue;
+    text-align: center;
+    font-size: 15px;
+
+
+}
